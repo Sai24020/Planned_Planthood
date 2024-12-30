@@ -206,13 +206,13 @@ article {
   display: grid;
   grid-auto-flow: column;
  
-  grid-template-columns:  repeat(4, 1fr);
+ /* grid-template-columns:  repeat(4, 1fr);*/
   grid-template-areas:
     'img'
     'header'
     'section'
     'footer';
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1f;
     grid-template-rows:  auto auto 1fr auto;
     /***Cards  style****/
 .cards-container {
